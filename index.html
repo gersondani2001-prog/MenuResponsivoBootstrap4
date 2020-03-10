@@ -1,0 +1,87 @@
+<!-- Codigo principal de la pagina web portada html5 -->
+<!DOCTYPE html>
+<!-- Lenguaje español guatemala html archivo codigo principal -->
+<html lang="es-GT" ng-app="app">
+<!-- Enlaces y Componentes -->
+<head>
+
+    <!-- jquery js -->
+    <script src="lib/jquery.js"></script>
+    <!-- caracteres especiales -->
+    <meta charset="UTF-8">
+    <!-- web responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compatibilidad con internet explore -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Descripcion -->
+    <meta name="description" content="Pagina Web componentes de bootstrap, angular, jquery, react y muchas cosas mas">
+    <!-- Nombre -->
+    <title>Templates Example</title>
+    <!-- Bootstrap enlace css -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <!-- link de css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link icono -->
+    <link rel="icon" href="img/icono.png">
+    <!-- iconos -->
+    <link rel="stylesheet" href="resources/iconos/fonts/style.css">
+
+</head>
+<!-- Cuerpo de la pagina web -->
+<body ng-controller="appCtrl">
+
+    <!-- codigo -->
+
+    <!-- codigo del menu navbar bootstrap colocamos navbar expand lg y seleccionamos el color-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- El pirincipal logo o nombre de la pagina -->
+        <a class="navbar-brand designX" href="#"><i class="icon-location"></i>DesingX</a>
+        <!-- boton del menu al momento de hacer responsive -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-menu"></span>
+        </button>
+        <!-- lista de los servicios o items del menu -->
+        <div class="collapse navbar-collapse listaMenu" id="navbarNav">
+            <!-- lista de items -->
+            <ul class="navbar-nav">
+                <!-- opciones primera opcion active  -->
+                <li class="nav-item servicioMenu active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item servicioMenu align-content-end">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item servicioMenu">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item servicioMenu">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+                <!-- ultima opcion desactiva -->
+                <li class="nav-item disabled servicioMenu">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Count</a>
+                </li>
+                <!-- opcion del boton -->
+                <li class="nav-item servicioMenu">
+                    <button class="btn btn-primary">
+                        <i class="icon-github sizeiconmenu"></i>
+                    </button>      
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Scripts librerias de js -->
+    <!-- Angular js -->
+    <script src="lib/angular.js"></script>
+    <!-- cdn de bootstrap js -->
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <!-- script de la pagina js principal -->
+    <script src="js/script.js"></script>  
+
+</body>
+</html>
+
+
+
+
+

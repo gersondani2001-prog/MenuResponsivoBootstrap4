@@ -1,0 +1,43 @@
+/*Codigo de estilo en css3 estilos en cascada*/
+
+/* body margin, padding y estilo de border */
+body{
+    /*decoracion*/
+    text-decoration: none;
+    list-style:none;
+    /* padding-margin */
+    padding: 0 !important;
+    margin: 0 !important;
+    /* compatibilidad */
+    box-sizing: border-box;
+    /* edge - safari */
+    -webkit-box-sizing: border-box;
+    /*mozilla - firefox*/
+    -moz-box-sizing: border-box;
+    /*opera*/
+    -o-box-sizing: border-box;
+}
+/*estilos designX*/
+.designX{
+    font-size: 25px;
+    padding-left: 5% !important;
+}
+/*estilos del menu*/
+.listaMenu{
+    padding-left:48%  !important;
+}
+/*estilos de cada item*/
+.servicioMenu{
+    padding-left: 3% !important;
+}
+/*estilo del botone en el icono*/
+.sizeiconmenu{
+    font-size: 20px;
+    padding-left: 5% !important;
+}
+/*estilos del menu al minimizarlo a tamaño celular*/
+@media (max-width: 991px){
+    .listaMenu{
+        padding-left: 0 !important;
+    }
+}
